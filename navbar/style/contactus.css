@@ -1,0 +1,72 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.contactus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center img {
+    height: 40px;
+    width: 40px;
+}
+
+#contactus-con {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px 5px rgb(12, 12, 12); 
+}
+#contactus-con h1{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#contactus-con span {
+    font-weight: bold;
+}
+.contact-phone-scanner-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-phone-scanner-con img {
+    height: 20vh;
+    width: 10vw;
+}
+
+.contact-item a {
+    color: green !important;
+    text-decoration: underline !important;
+}
+#ring-phone{
+    height: 50px;
+    width: 50px;
+}
+@media screen and (min-width:600px) and (max-width: 996px) {
+    .contact-phone-scanner-con img {
+        height: 20vh;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-phone-scanner-con img {
+        height: 15vh;
+        width: 100px;
+    }
+    #contactus-con {
+        margin: 20px;
+        padding: 10px;
+    }
+}
