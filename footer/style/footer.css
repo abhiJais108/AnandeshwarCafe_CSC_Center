@@ -43,16 +43,17 @@
 }
 
 .footer-bottom {
-    background-color: #faa86a;
+    background-color: #6d3306;
     margin-top: 20px;
     padding: 10px;
     font-size: 14px;
-    color:brown;
-    font-size: large;
-    font-weight: bolder
+    color:rgb(244, 203, 203);
+
 }
 
 .footer-bottom p {
+    font-size: 20px;
+    font-weight: bolder;
     margin: 0;
 }
 @media screen and (max-width: 600px){
