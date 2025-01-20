@@ -9,7 +9,7 @@
 }
 
 .navbar-brand {
-    color: rgb(216, 145, 38) !important;
+    color: rgb(91, 55, 2) !important;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -37,7 +37,7 @@
     align-items: center;
 } */
 
-img {
+.navbar img {
     height: 50px;
     width: 50px;
 }
@@ -66,45 +66,13 @@ h1 {
     text-align: center;
     color: #333;
 }
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-            font-size: 18px;
-            color: #333;
-        }
-        .contact-item img {
-            width: 40px;
-            height: 40px;
-        }
-        .contact-item a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .contact-item a:hover {
-            text-decoration: underline;
-        }
-        @media (max-width: 600px) {
-            .contact-item {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-
 @media screen and (max-width: 991px) {
+    .logo-nav {
+        margin: 0px 20px;
+        padding: 0px;
+    }
     .container-fluid .collapse:not(.show) {
         display: block !important;
-    }
-
-    .contact-item img {
-        height: 20px;
-        width: 20px;
     }
 
     .flexbox-nav {
@@ -112,7 +80,7 @@ h1 {
     }
 
     .navbar-brand {
-        font-size: 16px
+        font-size: 15px
     }
 
     .threeline {
