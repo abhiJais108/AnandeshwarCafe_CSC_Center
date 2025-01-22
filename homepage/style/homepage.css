@@ -182,7 +182,7 @@ body {
 
 .accordion-header h5 {
     margin: 0px;
-    font-size: 15px
+    font-size: 21px !important
 }
 
 .accordion-header {
@@ -282,7 +282,11 @@ body {
     .homepage-img {
         height: 100vh;
     }
-
+    .accordion-header h5 {
+        margin: 0px;
+        font-size: 15px !important;
+    }
+    
     .homepage-con1 h1,
     .homepage-con3 h1 {
         font-size: 20px;
