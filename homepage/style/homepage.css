@@ -41,7 +41,7 @@ body {
 }
 
 .homepage-con2 {
-    width: 80vw;
+    width: 95vw;
     margin: 50px 0px;
     display: flex;
     flex-direction: column;
@@ -108,6 +108,10 @@ body {
     width: 50px;
 }
 
+.accordion img{
+    margin: auto 10px;
+    border:1px solid black;
+}
 #services-container {
     padding: 10px;
     margin: 10px;
@@ -123,33 +127,27 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.service-con1 h1,
-p {
+.service-con1 h1
+ {
     text-align: center;
     font-size: 30px;
     margin: 0;
 }
 
-.service-con2 {
+.service-con2{
     width: 100%;
-    /* Adjust as needed */
-    text-wrap: wrap;
+    text-wrap: nowrap;
+    overflow: hidden;
     border-right: 3px solid black;
-    /* Cursor effect */
-    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-.service-con1 p {
+.service-con2 p {
     display: inline-block;
     font-size: 20px;
-    /* Adjust as needed */
     font-weight: bold;
-    /* Adjust as needed */
     color: black;
-    /* Adjust as needed */
     margin: 0;
-    /* Remove default margin */
     font-size: x-large;
 }
 
@@ -176,13 +174,15 @@ p {
 }
 
 .accordion {
-    margin: 20px auto 0px auto;
+    width: 90vw;
+    margin: 20px 0px;
     border: 1px solid black;
     box-shadow: 1px 1px 5px 1px brown;
 }
 
 .accordion-header h5 {
     margin: 0px;
+    font-size: 15px
 }
 
 .accordion-header {
@@ -191,7 +191,6 @@ p {
 }
 
 .accordion i {
-    width: 50px;
     /* Set the specific width */
     word-wrap: break-word;
     /* Ensure long words break and wrap to the next line */
@@ -201,7 +200,7 @@ p {
 .homepage-con1 h1,
 .homepage-con1 p {
     opacity: 0;
-    animation: fadeIn 3s ease-in-out both;
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 .homepage-con1 h1 {
@@ -286,11 +285,11 @@ p {
 
     .homepage-con1 h1,
     .homepage-con3 h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .homepage-con1 p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .homepage-con2-img img,
@@ -300,20 +299,21 @@ p {
     }
 
     .homepage-con2-text p {
-        font-size: 10px
+        font-size: 15px
     }
 
     .homepage-con2-text h1 {
-        font-size: 15px;
+        font-size: 20px;
 
     }
 
     .service-con2 {
-        height: 40px;
+        height: 60px;
         margin-bottom: 10px;
     }
 
     .service-con2 p {
+        text-wrap: wrap;
         font-size: 20px;
     }
 
