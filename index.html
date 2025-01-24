@@ -18,6 +18,7 @@
   </head>
 
   <body>
+
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="logo-nav">
@@ -71,9 +72,24 @@
         </div>
       </div>
     </nav>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+        fill="currentColor"
+        class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2"
+        viewBox="0 0 16 16" role="img" aria-label="Warning:">
+        <path
+          d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+      </svg>
+      क्रप्या सुने ध्यान से 🔊- यहा पर दी गई जानकारी को ध्यान से पढ़े और अपने
+      तरफ से भी पुष्टि कर ले क्योकि यह सभी सर्विसेज और जॉब ओपनिंग सायद अब आपके
+      लिए उपलब्ध न हो 😊
+      <button type="button" class="btn-close" data-bs-dismiss="alert"
+        aria-label="Close"></button>
+    </div>
     <div id="homepage">
       <img class="homepage-img" src="./images/fontpage.jpg" alt="homepageImage">
       <div class="homepage-container">
+
         <div class="homepage-con1">
           <h1>आपका स्वागत है - Welcome to Jan Seva Kendra</h1>
           <p>Your one-stop solution for all government services and
@@ -583,8 +599,9 @@
           <thead>
             <tr>
               <th scope="col">SNO.</th>
-              <th scope="col">Jobs	</th>
-              <th scope="col" class="last-date-heading-col">Last Date(mm/dd/yy)</th>
+              <th scope="col">Jobs </th>
+              <th scope="col" class="last-date-heading-col">Last
+                Date(mm/dd/yy)</th>
               <th scope="col">Vacancy</th>
             </tr>
           </thead>
@@ -600,8 +617,9 @@
           <thead>
             <tr>
               <th scope="col">SNO.</th>
-              <th scope="col">Name of Jobs	</th>
-              <th scope="col" class="last-date-heading-col">Last Date(mm/dd/yy)	</th>
+              <th scope="col">Name of Jobs </th>
+              <th scope="col" class="last-date-heading-col">Last Date(mm/dd/yy)
+              </th>
               <th scope="col">Vacancy</th>
             </tr>
           </thead>
@@ -616,13 +634,11 @@
       <h1>Contact Us</h1>
       <div class="contact-info">
         <div class="contact-item">
-          <img src="./images/phone-icon.png" alt="Phone Icon"
-            class="contact-icons">
+          <img src="./images/phone-icon.png" alt="Phone Icon">
           <span>Phone: <a href="tel:+91 9235589259">+91 9235589259</a></span>
         </div>
         <div class="contact-item">
-          <img src="./images//whatsapp-icon.png" alt="WhatsApp Icon"
-            class="contact-icons">
+          <img src="./images//whatsapp-icon.png" alt="WhatsApp Icon">
           <div class="contact-phone-scanner-con">
             <span>WhatsApp: <a href="https://wa.me/9235589259"
                 target="_blank">Chat with us</a></span>
@@ -658,7 +674,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2023 Jan Seva Kendra. All rights reserved.</p>
+        <p>&copy; 2025 Jan Seva Kendra. All rights reserved.</p>
       </div>
     </div>
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
@@ -718,7 +734,12 @@
     setInterval(textchange, 2000);
    
   </script>
-  <script src="./jobopening/jobOpeningsJSFile.js"></script>
+    <!--  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    alert("Not considering all the content is true, please rectify from your side");
+});
+    </script> -->
+    <script src="./jobopening/jobOpeningsJSFile.js"></script>
 
   </body>
 </html>

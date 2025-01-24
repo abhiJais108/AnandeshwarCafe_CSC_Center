@@ -65,6 +65,12 @@
         padding: 0px 10px;
     }
     .footer-section{
-        margin: 15px 0;
+        margin: 10px 0;
+    }
+    .footer p{
+        margin: 2px;
+    }
+    .footer-bottom p{
+        font-size: 15px;
     }
 }

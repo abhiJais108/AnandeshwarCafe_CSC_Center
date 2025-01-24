@@ -49,9 +49,7 @@
     gap:20;
 }
 .contact-item{
-    display: flex;
-    justify-content:space-between ;
-    align-items: center;
+    display:-webkit-inline-box;
 }
 .contact-item span{
     margin: 0px 0px 0px 10px;
@@ -59,8 +57,8 @@
     word-break: break-word;
 }
 .contact-item img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 .contact-item a {
     color: green !important;
@@ -84,6 +82,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .contact-item img{
+        height: 20px;
+        width: 20px;
+    }
     .contact-phone-scanner-con img {
         height: 15vh;
         width: 100px;
@@ -92,8 +94,5 @@
         margin: 20px 10px;
         padding: 10px;
     }
-    .contact-icons {
-        height: 30px;
-        width: 30px;
-    }
+    
 }

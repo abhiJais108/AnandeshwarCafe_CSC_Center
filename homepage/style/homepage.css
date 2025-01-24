@@ -15,7 +15,7 @@ body {
     position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -30%);
     text-align: center;
 }
 
@@ -25,6 +25,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.4;
+}
+
+.alert {
+    position: absolute !important;
+    width: 100%;
+    left: 0px;
+    z-index: 1000;
+    /* Ensure the alert is above other elements */
+    /* width: auto; /* Adjust the width as needed */
 }
 
 .homepage-con1 h1 {
@@ -97,7 +106,6 @@ body {
 
 .homepage-con3 {
     padding: 10px;
-    border: 1px solid red;
     box-shadow: 2px 2px 15px 1px green;
 }
 
@@ -108,10 +116,11 @@ body {
     width: 50px;
 }
 
-.accordion img{
+.accordion img {
     margin: auto 10px;
-    border:1px solid black;
+    border: 1px solid black;
 }
+
 #services-container {
     padding: 10px;
     margin: 10px;
@@ -127,14 +136,14 @@ body {
     justify-content: center;
     align-items: center;
 }
-.service-con1 h1
- {
+
+.service-con1 h1 {
     text-align: center;
     font-size: 30px;
     margin: 0;
 }
 
-.service-con2{
+.service-con2 {
     width: 100%;
     text-wrap: nowrap;
     overflow: hidden;
@@ -150,6 +159,16 @@ body {
     margin: 0;
     font-size: x-large;
 }
+
+/* @keyframes moveRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+ */
 
 @keyframes typing {
     from {
@@ -191,10 +210,12 @@ body {
 }
 
 .accordion i {
-    /* Set the specific width */
     word-wrap: break-word;
-    /* Ensure long words break and wrap to the next line */
     overflow-wrap: break-word;
+}
+
+.accordion u{
+    color: rgb(139, 63, 5) !important;
 }
 
 .homepage-con1 h1,
@@ -282,11 +303,12 @@ body {
     .homepage-img {
         height: 100vh;
     }
+
     .accordion-header h5 {
         margin: 0px;
         font-size: 15px !important;
     }
-    
+
     .homepage-con1 h1,
     .homepage-con3 h1 {
         font-size: 20px;
